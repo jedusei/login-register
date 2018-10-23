@@ -18,6 +18,6 @@
         $response["success"] = true;  
         $response["name"] = $name;
     }
-    
+
     echo json_encode($response);
 ?>
