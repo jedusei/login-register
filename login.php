@@ -1,5 +1,5 @@
 <?php
-    $con = mysqli_connect("sql7.freesqldatabase.com", "sql7262438", "cUtBIEPwFm", "sql7262438");
+    $con = mysqli_connect("sql312.byethost.com", "b8_22891803", "Tb83G3VWKcT9T6b", "b8_22891803_login_register");
     
     $email = $_POST["email"];
     $password = $_POST["password"];
