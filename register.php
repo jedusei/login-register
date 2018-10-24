@@ -6,8 +6,8 @@
     $password = $_POST["password"];
     $phone = $_POST["phone"];
     
-    $statement = mysqli_prepare($con, "INSERT INTO users (name, email, password, phone) VALUES (?, ?, ?, ?)");
-    mysqli_stmt_bind_param($statement, "ssss", $name, $username, $age, $password);
+    $statement = mysqli_prepare($con, "INSERT INTO users (Name, Email, Password, Phone) VALUES (?, ?, ?, ?)");
+    mysqli_stmt_bind_param($statement, "ssss", $name, $email, $password, $phone);
     mysqli_stmt_execute($statement);
     
     $response = array();
